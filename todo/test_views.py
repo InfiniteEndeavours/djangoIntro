@@ -4,7 +4,7 @@ from todo.models import Item
 
 # Create your tests here.
 
-class TestDjango(TestCase):
+class TestViews(TestCase):
 
     def test_get_todo_list(self):
         # Simulate get request to the root of the website
