@@ -13,6 +13,6 @@ def get_todo_list(request):
     return render(request, 'todo/todo_list.html', context)
 
 
-# Create a view to add an item to the Todo List
+# Create a view to add an item to the to do List
 def add_item(request):
     return render(request, 'todo/add_item.html')
